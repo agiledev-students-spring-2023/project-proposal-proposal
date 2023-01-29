@@ -1,17 +1,40 @@
-# Title: Always there to help 
+# Title: Spotify Palate 
 
 ## What and Why : 
 
-I would like to build a communication or chatting resource app for students(High school, Undergraduate, Graduate, etc.) in need of late night support whether it is academic or emotional. Students tend to have lots on their plates and will struggle for many reasons, but most struggles come down to mental health, emotional burden, or an academic task. These tasks tend to have a huge toll on students. Therefore, with this app, students can always have someone to talk to in case they need the emotional support. Or in case they are doing homeowkr, studying late night for an exam and still do not have answers to the questions they need, they can always find someone at any time of the day to help them. 
+Spotify Palate (tentative name) is a web application that analyzes a user's Spotify music taste and listening habits. It organizes and compiles a user's top artists, top tracks, as well as the genre and mood of the music that the user often listens to. It then offers an option to present that information for the timespan of: past month, past 6 months, and all time. Although Spotify offers some ways for its users to look back at their own music taste through an annual Spotify "wrapped" and displaying top tracks of the month on a user's profile page, their options are respectively limited in ways that it can be browsed only at the end of year, and it only analyzes music during the past month. Spotify Palate intends to fill this gap by allowing users to browse and analyze their music taste whenever they want, and providing a bigger picture by offering analytics of listening history of various time spans. 
+
 
 ## For Whom? :
 
-This software is for students from anywhere to High School to Graduate School. These times are when emotional and/or academic support matter the most. As a student myself, I have had times where I felt very stressed the night before the exam, the time waiting for my results, or the bitterness of seeing a bad grade. There are also times where I still do not understand everything before the actual exam. Therefore, my app will be able to connect people with all of these resources. Stressed, get a professional therapist to help. Sad because of an unsatisfactory grade, talk to an emotional support specialist. Need help on a test/quiz, talk to a tutor in the subject. No matter what time of day it is, there will always be someone to help.
+Spotify Palate is for any Spotify user who would like to analyze their own music taste.
 
 ## How?:
 
-The app will first ask you for some information in regard to what you exactly need. For example, the user can tap a support needed button that asks them what kind of support they need. The user can choose academic, emotional, and other. They can then detail their needs and write more specifics. Then, they can submit the request and the request will be sent to anyone who is qualified for the requested needs and available online. The app will then notify the requester that someone can help them, and they can start texting and/or communicating.
+1. Greet the user with a landing page that contains a button to log in with their Spotify.
+2. Upon login, present the analyzed music taste to the user. The user should have options to browse through:
+    - Music mood for the past month
+    - Music mood for the past 6 months
+    - Music mood for all time
+    - Top artists for the past month
+    - Top artists for the past 6 months
+    - Top artists for all time
+    - Top tracks for the past month
+    - Top tracks for the past 6 months
+    - Top tracks for all time 
+    - Top genres for the past month
+    - Top genres for the past 6 months
+    - Top genres for all time
 
 ## Scope: 
 
-This task will not be too hard as it can be broken down into many aspects. For example, one developer could work on creating the interface, another could work on the network connections, and more. Each of the previously mentioned subtasks may be large, but can be managed through an entire semesters worth of work.
+In order to make sure that this project is neither too easy nor too ambitious to be completed by 4-6 programmers in a semester, there can be steps for the team to take for either scenarios.
+
+Too easy:
+- Implement more analytic features.
+- Implement a music recommendation system that the user may enjoy based on the user's music palate.
+- Explore ways to aesthetically deliver the analyzed results in a less boring manner (i.e. on a receipt or a transcript template).
+
+Too ambitious:
+- Strip down web app front-end to be as minimal/bare-bones as possible.
+- Strip away the music mood analytics option which may be the hardest one to implement out of the listed options.
